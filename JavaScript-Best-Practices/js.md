@@ -255,7 +255,7 @@ const singletonCounter = Object.freeze(new Counter());
 export default singletonCounter;
 ```
 
-<video src="./assets/Singleton.mov" width="100%" height="430" controls></video>
+![Singleton](./assets/Singleton.gif)
 
 <mark>Note</mark> : We can also implement it with `Objects`:
 
