@@ -6,11 +6,11 @@ Welcome to my `"Today I Learned"` repository! Here, I document and share my `dai
 
 ### Happy learning and coding! 🚀
 
-## Table of Contents <img style="vertical-align: middle; margin-left: 10px;" src="./assets/table-of-contents.png" width="40" height="40" alt="table of contents" />
+## Table of Contents <img src="./assets/table-of-contents.png" width="40" height="40" alt="table of contents" />
 
 - [JavaScript](#javascript)
 
-## JavaScript <img style="vertical-align: middle; margin-left: 10px;" src="./assets/js.png" width="30" height="30" alt="js" />
+## JavaScript <img src="./assets/js.png" width="30" height="30" alt="js" />
 
 - [JavaScript Design Patterns](JavaScript/Design-Patterns)
 
