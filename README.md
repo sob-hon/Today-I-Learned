@@ -12,7 +12,7 @@ Welcome to my `"Today I Learned"` repository! Here, I document and share my `dai
 
 ## JavaScript <img style="vertical-align: middle; margin-left: 10px;" src="./assets/js.png" width="30" height="30" alt="js" />
 
-- [JavaScript Design Patterns](JavaScript-Design-Patterns)
+- [JavaScript Design Patterns](JavaScript/Design-Patterns)
 
     - [All-in-One Overview](JavaScript/Design-Patterns/all-in-one.md)
     - [Module Pattern](JavaScript/Design-Patterns/module.md)
