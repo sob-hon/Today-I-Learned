@@ -98,10 +98,13 @@ console.log(securedUser.name); // Output: John (allowed)
 console.log(securedUser.email); // Throws: Error: Access denied: You do not have permission to access sensitive information
 console.log(securedUser.role); // Output: user (allowed)
 
+user.isAdmin = false;
+const regularUser = new Proxy(user, accessControlHandler);
+
 // Attempt to modify properties
-securedUser.name = "Jane"; // Throws: Error: Access denied: You do not have permission to modify properties
-securedUser.email = "jane@example.com"; // Throws: Error: Access denied: You do not have permission to modify properties
-securedUser.role = "admin"; // Throws: Error: Access denied: You do not have permission to modify properties
+regularUser.name = "Jane"; // Throws: Error: Access denied: You do not have permission to modify properties
+regularUser.email = "jane@example.com"; // Throws: Error: Access denied: You do not have permission to modify properties
+regularUser.role = "admin"; // Throws: Error: Access denied: You do not have permission to modify properties
 ```
 
 ### 🟢 `Enhanced Security and Access Control` :
