@@ -107,7 +107,7 @@ regularUser.email = "jane@example.com"; // Throws: Error: Access denied: You do 
 regularUser.role = "admin"; // Throws: Error: Access denied: You do not have permission to modify properties
 ```
 
-### 🟢 `Enhanced Security and Access Control` :
+### 🟢 `Data Validation` :
 
 ```js
 // Define the user object
