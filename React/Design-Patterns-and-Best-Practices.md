@@ -4,6 +4,45 @@
 
 ### Written by Carlos Santana Roldan
 
+## What is React and why Meta(ex. Facebook) engineers made it?
+
+As mentioned in react docs, React is a `JavaScript library` for rendering `user interfaces (UI)`. But the main question here is what issues made meta engineers think of a new way?
+There were several issues that started the Idea:
+
+1. `Inefficient DOM Manipulation`:
+
+- Problem:
+  Facebook's web application were becoming `increasingly dynamic and complex` leading to frequent updates to the Document Object Model (DOM).<br/>
+  Direct manipulation of the DOM is slow and can lead to performance bottlenecks.
+
+- Solution:
+  React introduced the `Virtual DOM` to optimize and manage the updates more efficiently. By comparing the current and previous states of the Virtual DOM, React can batch updates and apply only the necessary changes to the real DOM, improving performance significantly.
+
+2. `Component Reusability`:
+
+- Problem:
+  The lack of a component-based architecture made it `hard to reused code`. Developers often had to `duplicate codes` across different parts of the application leading to `maintenance issues`.
+
+- Solution:
+  React component-based architecture allowed engineers to `encapsulate UI logic within individual components`. Each component is `self-contained`, managing it's `own state and rendering`, which simplifies the `development and maintenance`.
+
+3. `Declarative vs. Imperative`:
+
+- Problem:
+  Imperative programming model made developers `explicitly specify steps to update the UI`, led to code that was `difficult to read`, `understand` and `debug`.
+
+- Solution:
+  React's declarative programming model allow developers to describe what the UI should look like for a given state, then React `handle the underlying updates`, making the code `more predictable` and `easier to read and debug`.
+
+4. `State Synchronization`:
+
+- Problem:
+   Synchronizing state across different parts of the application was `challenging`. When the state changed in one part of the application, ensuring that all affected parts of the UI were `updated correctly was difficult and error-prone`.
+
+- Solution: 
+  React’s `unidirectional data flo`w and component-based model make it easier to manage and synchronize state changes. By passing data down through `props` and using `state within components`, React ensures that the `UI stays consistent with the underlying data`.
+
+
 ## Differentiating between declarative and imperative programming
 
 One of the reasons why React is so powerful is that it enforces a `declarative programming paradigm`.
